@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    
+    font-family: poppins;
+}
+
+body{
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+} 
+
+.cardProject {
+    background-color: #4c2885;
+    background: linear-gradient(gray, #25b09b);
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    margin: 50px;
+  
+}
+
+i {
+    font-size: 3em;
+    color: rgb(73, 72, 72);
+  }
+
+
+.cardProject ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 15px 0;
+    color: rgb(73, 72, 72);
+}
+
+.cardProject ul li {
+    list-style-position: inside;
+    list-style: none;
+    display: flex;
+    gap: 5px;  
+}
+
+#repos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#repos a{
+    text-align: center;
+    background: #25b09b;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgba(73, 72, 72, 0.575);
+    font-weight: bold;
+    text-align: center;
+}
+
+#repos a:hover{
+    background: linear-gradient(gray, #25b09b, gray) ;
+}
+
+@media (max-width: 768px){
+    .cardProject {
+       flex-direction: column; 
+       align-items: center;
+    }
+}
