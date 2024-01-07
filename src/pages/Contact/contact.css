@@ -1,0 +1,25 @@
+i {
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(gray, #25b09b);
+    margin: 5px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    background: linear-gradient(gray, #25b09b);
+    color: rgba(255, 255, 255, 0.541)
+}
+
+input:hover {
+    background: #25b09b;
+    color: gray;
+}
