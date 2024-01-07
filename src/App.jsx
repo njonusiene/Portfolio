@@ -6,7 +6,7 @@ import Navbar from './pages/second/components/Navbar';
 import Project from './pages/Project/Project';
 import Contact from './pages/Contact/Contact';
 
-import './app.css';
+import './App.css';
 
 function App() {
   return (
