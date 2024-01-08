@@ -1,7 +1,46 @@
+.contacts {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(73, 72, 72);
+  }
+
 i {
     font-size: 1em;
     padding-left: 15px;
     padding-right: 15px;
+    color: rgb(73, 72, 72);
+}
+
+.contacts li {
+    box-shadow: inset 0 0 0 0 #25b09bd0;
+    color: rgb(73, 72, 72);;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.contacts li:hover {
+    box-shadow: inset 260px 0 0 0 #25b09b;
+    color: rgb(73, 72, 72);
+}
+
+.contacts h2 {
+    box-shadow: inset 0 0 0 0 #25b09bd0;
+    color: rgb(73, 72, 72);;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.contacts h2:hover {
+    box-shadow: inset 180px 0 0 0 #25b09b;
+    color: rgb(73, 72, 72);
 }
 
 input {
@@ -11,6 +50,7 @@ input {
     margin: 5px;
     border: 1px solid grey;
     box-shadow: 5px 5px 5px gray;
+    color: rgb(73, 72, 72);
     transition: 0.5s;
 }
 

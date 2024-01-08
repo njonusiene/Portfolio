@@ -43,8 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
-      <br />
+    <div className='contacts'>
       <ul>
         <li>
           <i className="fa-solid fa-phone"></i> +370 60485639
@@ -56,7 +55,7 @@ const Contact = () => {
       </ul>
       <br /> <br />
       <h2>Let's get in touch:</h2>
-
+      <br />
       <form onSubmit={handleSubmit}>
         <input
           type="email"

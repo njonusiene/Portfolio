@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import First from './pages/first/First';
 import Second from './pages/second/Second';
-import Navbar from './pages/second/components/Navbar';
+import Navbar from './components/Navbar';
 import Project from './pages/Project/Project';
 import Contact from './pages/Contact/Contact';
 
