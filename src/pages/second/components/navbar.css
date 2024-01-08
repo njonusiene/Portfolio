@@ -1,3 +1,15 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
 .active {
     background: rgba(128, 128, 128, 0.329);
 }

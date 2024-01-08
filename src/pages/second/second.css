@@ -1,12 +1,13 @@
 body {
     margin: 0;
-    max-height: 100vh;
+    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(gray, #25b09b);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
+  
   }
 
   .card {
@@ -27,14 +28,14 @@ body {
   h1 {
     color: grey;
     font-weight: 400;
-    font-size: 2em;
-    margin: 10px;
+    font-size: 1.5em;
     text-shadow: 5px 15px 15px rgba(128, 128, 128, 0.705);
   }
   
   h2 {
     color: rgba(255, 255, 255, 0.574);
     font-weight: 400;
+    font-size: 1.2em;
   }
   
   p {
@@ -42,27 +43,25 @@ body {
   }
   
   img {
-    width: 175px;
+    width: 150px;
     border-radius: 50%;
-    margin: 10px;
     box-shadow: 5px 15px 15px rgba(128, 128, 128, 0.705);
   }
   
   .icons {
     display: flex;
-   
-    padding: 25px;
+    padding: 10px;
     gap: 15px;
   }
   
   .icons i {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #25b09b;
   }
   
   @media (max-width: 320px) {
     .card {
-      margin: 50px;
+      margin: 10px;
       padding: 10px;
     }
   

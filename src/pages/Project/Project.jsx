@@ -22,7 +22,7 @@ const Project = () => {
     try {
       const response = await fetch(`${API_URL}/repos`);
       const data = await response.json();
-      return data.slice(0, 20);
+      return data.slice(0, 30);
     } catch (error) {
       console.error('Error fetching repositories:', error);
       throw error; // Rethrow the error to indicate that the fetch failed

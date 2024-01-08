@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-* {
-    
-    font-family: poppins;
-}
-
-body{
-    width: 90%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-} 
-
 .cardProject {
     background-color: #4c2885;
     background: linear-gradient(gray, #25b09b);
@@ -24,14 +6,19 @@ body{
     gap: 50px;
     padding: 30px;
     margin: 50px;
-  
+    min-height: 150px;
+    box-shadow: 25px 25px 25px gray;;
 }
 
-i {
+.cardProject i {
     font-size: 3em;
     color: rgb(73, 72, 72);
+    transition: 0.3s;
   }
 
+  .cardProject i:hover {
+    color: #25b09b;
+  }
 
 .cardProject ul {
     display: flex;
@@ -59,12 +46,14 @@ i {
     text-align: center;
     background: #25b09b;
     border-radius: 10px;
-    padding: 25px;
-    font-size: 1em;
+    padding: 20px;
+    font-size: 0.8em;
     text-decoration: none;
     color: rgba(73, 72, 72, 0.575);
     font-weight: bold;
     text-align: center;
+    transition: 0.5s;
+    min-height: 50px
 }
 
 #repos a:hover{
